@@ -7,7 +7,7 @@ A secure RESTful authentication API built with NestJS and Redis.
 ### Installation
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### Configuration
@@ -25,7 +25,7 @@ PORT=3000
 ### Running
 
 ```bash
-npm run start:dev
+pnpm start:dev
 ```
 
 Swagger documentation available at: `http://localhost:3000/api`
@@ -33,7 +33,7 @@ Swagger documentation available at: `http://localhost:3000/api`
 ### Testing
 
 ```bash
-npm run test:e2e
+pnpm test:e2e
 ```
 
 ## Security Considerations & Future Development
